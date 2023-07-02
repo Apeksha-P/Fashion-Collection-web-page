@@ -1,0 +1,15 @@
+body{
+    padding: 0;
+    width:0 ;
+}
+.top{
+    height:50% ;
+    background-color: aqua;
+}
+.link_bar{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.link_bar img{
+    width: 100px;
+}
