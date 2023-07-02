@@ -89,3 +89,6 @@ body{
     margin-top: -150px;
     margin-left: 1300px;
 }
+.col img{
+    width: 90%;
+}
