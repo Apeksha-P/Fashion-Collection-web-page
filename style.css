@@ -4,31 +4,29 @@ body{
 }
 .htop{
     background-image: linear-gradient(to right,white, rgb(182, 198, 220));
-    padding-top: 20px;
-    margin-left: 80px;
-    padding-bottom: 0;
+    position: relative;
+    margin-left: 8%;
+    padding-top: 2%;
 }
 .link_bar{
     position: relative;
     z-index: 2;
-    margin-left: 10px;
+    
 }
 .logo{
-    width: 120px;
-    padding-top: 20px;
+    padding-top: 2%;
+    width: 15%;
 }
 .link_bar ul{
-    margin-left: 300px;
+    margin-left: 25%;
     margin-top: -30px;
 }
 .icon{
-    margin-left: 1100px;
+    position: relative;
 }
 .icon img{
-    width: 20px;
-    display: inline;
-    margin-top: -90px;
-    margin-left: 30px;
+    width: 1.5%;
+    
 }
 .link_bar ul li{
     list-style-type: none;
@@ -80,15 +78,38 @@ body{
     font-size: 20px;
 }
 .mtop img{
-    margin-left: 400px;
-    margin-top:-500px;
-    width: 700px;
+    position: absolute;
+    top: -2vh;
+    left: 35vw;
+    width: 55%;
 }
 .arrow img{
     width: 80px;
-    margin-top: -150px;
-    margin-left: 1300px;
+    position: relative;
+    left: 20vw;
 }
 .col img{
-    width: 90%;
+    width: 80%;
+    margin-bottom: 40px;
+    position: relative;
+    left: 30px;
+}
+.col img:hover{
+    transform: scale(1.2);
+}
+.mid span{
+    color: red;
+}
+.mid{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.mid p{
+    font-size: 22px;
+    font-weight: 700;
+}
+.col{
+    font-size: 13px;
+    line-height: 5px;
+    font-weight: 600;
 }
