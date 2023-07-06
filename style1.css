@@ -2,6 +2,12 @@ body{
     margin: 0;
     padding: 0;
     width: 100%;
+}
+.container1{
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
     background-image: url("image/banner/7.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,11 +55,62 @@ li a:hover{
     width: 1.4vw;
     
 }
+
+.row1{
+    width: 90%;
+    position: relative;
+    left: 10vw;
+    top: 20vh;
+    line-height: 1.8em;
+}
+
+.fashion{
+    color: rgb(213, 34, 34);
+    font-size: 1.5em;
+    margin-bottom: 2.5em;
+}
+
+.row h1{
+    font-size: 4em;
+}
+
+p{
+    font-size: 1.2em;
+    color: gray;
+}
+
+button{
+    border-radius: .25em;
+    font-size: 1em;
+    width: 10.5%;
+    height: 2.5em;
+    text-align: left;
+
+}
+
+.row{
+    display: flex;
+    margin-left: 5em;
+}
+.col{
+    width: 60%;
+    justify-content: space-between;
+}
+.col img{
+    border-radius: 1em;
+    width: 70%;
+    align-items: center;
+    margin-top: 2em;
+}
 @media (max-width:800px) {
     body{
         padding: 0;
         margin: 0;
         width: 100%;
+    }
+    .logo{
+        padding: 0;
+        margin: 0;
     }
     .link{
         position: relative;
@@ -75,5 +132,26 @@ li a:hover{
     .icon{
         position: relative;
         left: -3vw;
+    }
+    .row{
+        position: relative;
+        top: 1.5vh;
+        line-height: .5em;
+    }
+    .row h1{
+        font-size: 1em;
+    }
+    .fashion{
+        font-size: 0.7em;
+        margin-bottom: 0;
+    }
+    p{
+        font-size: .5em;
+    }
+    button{
+        border-radius: .3em;
+        font-size: .5em;
+        width: 15%;
+        height: 2em;
     }
 }
