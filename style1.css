@@ -90,7 +90,6 @@ button{
 
 .row{
     display: flex;
-    flex-wrap: wrap;
     margin-left: 5em;
 }
 .col{
@@ -182,6 +181,11 @@ button{
     }
     .container p{
         font-size: 1em;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 5em;
     }
     
 }
